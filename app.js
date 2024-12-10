@@ -3,7 +3,7 @@ const cors = require('cors');
 const app = express();
 const PORT = 8001;
 
-// Middleware para parsear JSON
+// mMiddleware para parsear JSON
 app.use(express.json());
 app.use(cors({
     origin: '*'
